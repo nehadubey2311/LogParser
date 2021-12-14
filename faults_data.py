@@ -1,0 +1,21 @@
+fault_data = {
+	'overTemperature' : ['Robot overheated', 'The robot is too hot and will not drive while it is too hot.   Please contact your robot provider for assistance.  This fault will stay until acknowledged.'],
+	'drivingFault' : ['Unknown driving fault', 'The robot has an unknown driving fault, turn off the robot and contact your robot provider for maintenance'],
+	'overTemperatureAnalog' : ['Robot overheated (analog)', 'The robot is too hot (measured by analog) and will shut down shortly'],
+	'underVoltage' : ['Robot battery critically low', 'The robot battery is critically low and will shut down shortly'],
+	'gyroFault' : ['Gyro fault', "The robot's gyro has had a critical fault, you may power cycle the robot and continue using it, but you should also contact your robot provider for maintenance"],
+	'encoderDegraded' : ['Encoder degraded', "The robot's encoders may be degraded"],
+	'brakeOrEncoderFailed' : ['Brake or encoder failed', 'A problem has been detected that indicates a brake or encoder failure.  Contact your robot provider for maintenance.  This message can be cleared by cycling power.'],
+	'EStopMismatchFlag' : ['ESTOP Mismatch', 'One channel of the ESTOP circuitry may be failing.  This is normally because of a loose connector (usually between the Core and HMI Panel).   You may need to fully press and fully release the estop to recover from this problem.   If the problem persists please contact your robot provider for assistance.'],
+	'ESTOPSafetyFault' : ['ESTOP Safety Fault', "The robot's ESTOP circuitry has failed.  The robot's safety system needs to be commissioned again in MobilePlanner.  If the problem persists, please contact your robot provider for assistance."],
+	'SpeedZoneSafetyFault' : ['Speed Zone Safety Fault', "The robot's speed zone detection circuitry has failed and the safety laser will not function.  The robot will be able to drive, but only slowly.  The robot's safety system needs to be commissioned again in MobilePlanner.  If the problem persists, please contact your robot provider for assistance."],
+	'safetyUnknownFault' : ['Safety Unknown Fault', "The robot's safety system is in an unknown state.  The robot's safety system needs to be commissioned again in MobilePlanner.  If the problem persists, please contact your robot provider for assistance."],
+	'backupFault' : ['Backup Fault', "The robot backed up faster than should be allowed.   Please contact your robot provider for assistance configuring the robot so that this fault won't happen."],
+	'joystickOverride' : ['Joystick Override Fault', "The robot's joystick trigger was held at startup.  The robot will not obey any command except from the joystick.   Restart the robot witout the trigger held to allow it to drive normally again."],
+	'ampError' : ['Amplifier Error', 'Motor amplifier not responding.  This may be recoverable by power cycling the robot but if the problem persists please contact your robot provider for assistance.'],
+	'safetyCircuitryError' : ['Safety Circuitry Error', 'The safety laser has detected a circuitry problem and is preventing the robot from driving.  You may restart the robot to have it operate again, but please contact your robot provider for assistance.'],
+	'robotTipped' : ['Robot tipped', 'The robot has tipped over and disabled the motors.'],
+	'inrushFault' : ['Inrush fault', "The robot's inrush circuit has had a critical fault. You may continue using it, but it may shut down unexpectedly.  You should also contact your robot provider for maintenance"],
+	'gyroNotCenteringFault' : ['Gyro not centering fault', "The robot's gyro is not centering properly.  This fault may clear on it's own if the robot is not moving.  If it does not should contact your robot provider for maintenance."],
+	'overspeedFault' : ['Overspeed Fault', 'The robot has traveled over its absolute maximum speed. This may be recoverable by enabling the motors but if the problem persists please contact your robot provider for assistance.']
+	}
